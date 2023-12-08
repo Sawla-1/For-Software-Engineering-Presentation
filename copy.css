@@ -506,7 +506,7 @@ button{
 }
 
 h3{
-
+  margin-top: 5%;
   color: var(--text-color);
   font-size: 26px;
   font-weight: 500;
@@ -542,7 +542,7 @@ h3{
   margin: 0 5px;
   background-color: rgb(24, 48, 92);
 
-  transform: translateY(90px);
+  transform: translateY(86px);
 }
 
 .ca:hover .cover.ca-image{
@@ -554,7 +554,7 @@ h3{
   justify-content: center;
   align-items: center;
   position: relative;
-  /* background: var(--second-bg-color); */
+  background: var(--second-bg-color);
   padding: 20px;
   margin: 0 5px;
   box-shadow: 0 10px 15px rgba(0,0,0,0.8);
@@ -570,7 +570,7 @@ h3{
   margin: 15px 0 0;
   display: inline-block;
   text-decoration: none;
-  color: orange;
+  color: orange; 
 }
 
 .cover.ca-info .content a:hover{
